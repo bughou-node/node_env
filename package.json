@@ -1,7 +1,7 @@
 {
   "name": "node_env",
   "version": "1.0.5",
-  "description": "get node env from dir suffix",
+  "description": "get node env from environment variables or dir suffix",
   "main": "index.js",
   "scripts": {
     "test": "mocha"

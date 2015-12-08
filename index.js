@@ -5,7 +5,7 @@ var node_env = process.env.NODE_ENV || 'development';
 console.log('environment: ' + env + ', NODE_ENV: ' + node_env);
 
 module.exports = {
-  env: env,
+  key: env,
   is_development: node_env === 'development',
   is_production:  node_env === 'production'
 }
