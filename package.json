@@ -1,15 +1,12 @@
 {
   "name": "node_env",
-  "version": "1.0.5",
+  "version": "0.0.2",
   "description": "get node env from environment variables or dir suffix",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
-  "homepage": "https://github.com/bughou/node_env",
+  "main": "node_env.js",
+  "homepage": "https://github.com/bughou-node/node_env",
   "repository": {
     "type": "git",
-    "url": "git@github.com/bughou/node_env.git"
+    "url": "git@github.com/bughou-node/node_env.git"
   },
   "keywords": [
     "node",
