@@ -1,6 +1,6 @@
 {
   "name": "node_env",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "get node env from environment variables or dir suffix",
   "main": "node_env.js",
   "homepage": "https://github.com/bughou-node/node_env",
