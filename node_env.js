@@ -21,7 +21,7 @@ function get_env() {
   if (/mocha$/.test(target)) return 'test';
 
   var m = /(_qa|_production|_preview)($|\/)/.exec(process.cwd());
-  switch (m && m[0]) {
+  switch (m && m[1]) {
     case '_qa':
       return 'qa';
     case '_preview':
